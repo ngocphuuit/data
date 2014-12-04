@@ -318,7 +318,6 @@ CREATE TABLE IF NOT EXISTS `fs_users` (
   `Postal` int(5) unsigned NOT NULL,
   `Country` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `Phone` int(20) unsigned DEFAULT NULL,
-  `Created_on` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`Id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
